@@ -1,0 +1,119 @@
+]body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .left p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .main {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center

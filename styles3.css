@@ -1,0 +1,206 @@
+/* Add custom Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('header-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+nav {
+    margin-top: 20px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.button {
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    margin: 10px;
+    color: white;
+    transition: transform 0.3s, background-color 0.3s;
+    border: none;
+}
+
+.button:hover {
+    background-color: #0d0d0d;
+    transform: translateY(-5px);
+}
+
+main {
+    padding: 40px 0;
+}
+
+.section {
+    padding: 50px 0;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.project-link:hover .project {
+    /* Optional: Add a hover effect */
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    transform: translateY(-10px);
+}
+
+form div {
+    margin: 15px 0;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    height: 60px;
+    width: 100%;
+    resize: none;
+}
+
+.submit {
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    background-color: #1a1a1a;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #0d0d0d;
+}
+
+.scrollbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+    border-radius: 30px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #1a1a1a;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.scrollbutton:hover {
+    background-color: #0d0d0d;
+}
+
+footer {
+    background-color: #333;
+    height: 100px;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }

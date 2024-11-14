@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1 class="fade-in">Welcome to my Portfolio</h1>
+            <nav class="fade-in">
+                <a href="#about"><button class="button">About</button></a>
+                <a href="#skills"><button class="button">Skills</button></a>
+                <a href="#projects"><button class="button">Projects</button></a>
+                <a href="#contact"><button class="button">Contact</button></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section fade-in-up">
+            <div class="container">
+                <h2>Yashwenth Puchala</h2>
+                <img src="me1.jpg" alt="This is an image of me.">
+                <p>I am a passionate web developer currently pursuing my education at <em>SRM University AP</em>.<br>
+                    I learned Web development from <strong>Code with Swaroop</strong>.<br>
+                </p>
+            </div>
+        </section>
+        <section id="skills" class="section fade-in-up">
+            <div class="container">
+                <h2>My Skills</h2>
+                <ul>
+                    <li>C Basics</li>
+                    <li>Python Basics</li>
+                    <li>Frontend Development</li>
+                    <li>C++</li>
+                    <li>Java </li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects" class="section fade-in-up">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>I built a website for showcasing my skills using HTML and CSS.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Python Simple Calculator</h3>
+                        <p>I built a simple calculator using Python.</p>
+                    </div>
+                    <a href="http://127.0.0.1:5501/Project.html" target="_blank" rel="noopener noreferrer" class="project-link">
+                        <div class="project">
+                            <h3>Online Bus Ticket Booking Platform</h3>
+                            <p>A C++ project for booking bus tickets with features like distance display.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section fade-in-up">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to get in touch with me using the form below:</p>
+                <form>
+                    <div class="form-group">
+                        <label for="name"> Name: </label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"> Email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <b>Choose your Gender:</b>
+                        <label for="maleradio">Male</label>
+                        <input id="maleradio" type="radio" name="gender" value="male">
+                        <label for="femaleradio">Female</label>
+                        <input id="femaleradio" type="radio" name="gender" value="female">
+                    </div>
+                    <div class="form-group">
+                        <b>Select your Interests:</b>
+                        <label for="code">Coding</label>
+                        <input type="checkbox" id="code" value="Coding">
+                        <label for="read">Reading</label>
+                        <input type="checkbox" id="read" value="Reading">
+                    </div>
+                    <div class="form-group">
+                        <label for="bio">Bio (up to 200 words):</label> <br>
+                        <textarea id="bio" style="width: 100%;"></textarea>
+                    </div>
+                    <button type="submit" class="submit">Submit</button> <br>
+                </form>
+            </div>
+        </section>
+    </main>
+    <a href="#header" class="scrollbutton">Top</a>
+    <footer>
+        <p>@2024 portfolio</p>
+    </footer>
+    <script src="portfolio2.js"></script>
+</body>
+</html>

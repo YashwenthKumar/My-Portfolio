@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title class="tittle">My Portfolio</title>
+            <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1 class="back">Welcome to my Portfolio </h1>
+
+        <div>
+            <a href="#about">
+                <button  class="button">
+                    About
+                </button>
+            </a>
+            <a href="#skills">
+                <button class="button">
+                    Skills
+                </button>
+            </a>
+            <a href="#projects">
+                <button class="button">
+                Projects
+                </button >
+            </a>
+            <a href="#contact">
+                <button class="button">
+                    Contact
+                </button>
+            </a>
+        </div>
+
+        </header>
+
+        <main>
+            <section id="about">
+                <h1>Yashwenth puchala</h1>
+            <img src="me1.jpg" height="500px" alt="This is image of me.">
+                <p>
+                I am a passionate web developer currenty pursuing my education in <em>SRM University AP</em>.<br>
+                I learned Web development from <strong>Code with Swaroop</strong>.<br>
+            </p>
+            </section>
+
+            <section id="skills">
+                <h1>My Skills</h1>
+        <ol>
+            <li>C Basics</li>
+            <li>Python Basics</li>
+            <li>Frontend development</li>
+            <li>C++</li>
+        </ol>
+            </section>
+
+            <section id="projects">
+                <h1>My Projects:</h1>
+                <table border="1">
+                    <tr>
+                        <th>Projects</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Portfolio website</td>
+                        <td>I built a website for showcasing my skills using HTML and CSS </td>
+                    </tr>
+                    <tr>
+                        <td>Python Simple Calculator</td>
+                        <td>I built a simple calculator using pthon</td>
+                    </tr>
+                    
+                </table>
+        
+            </section>
+
+            <section id="contact">
+                <h1>Contact Me:</h1>
+        <p>Feel free to get in touch with me using the form below:</p>
+        <form>
+            <div>
+                <label for="name"> Name: </label>
+                <input type="text" id="name">
+            </div>
+            
+           <div>
+            <label for="email"> Email:</label>
+            <input type="email" id="email">
+            
+           </div>
+            <div>
+                <b>Choose your Gender:</b>
+                <label for="maleradio">Male</label>
+                <input id="maleradio" type="radio" value="male">
+                <label for="femaleradio">Female</label>
+                <input id="femaleradio" type="radio" value="female">
+            </div>
+            <div>
+                <b>Select your Interests:</b>
+                <label for="code">Coding</label>
+                <input type="checkbox" id="code" value="Coding">
+                <label for="read">Reading</label>
+                <input type="checkbox" id="read" value="Reading">
+            </div> 
+    
+           <div>
+            <label for="bio">Bio(upto 200 words):</label> <br>
+            <input style="width: 200px;" id="bio"></input>
+           </div>
+        
+            <button type="submit" class="submit">Submit</button> <br>
+            </section>
+        </main>
+        <a href="#" 
+       class="scrollbutton">
+          Top
+    </a> 
+  
+        <footer>
+            <p>@2024 portfolio</p>
+        </footer>
+        
+    </body>
+    </html>

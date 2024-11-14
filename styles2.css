@@ -1,0 +1,138 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: beige;
+}
+
+header {
+    background-color: #2196F3;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.button {
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    background-color: lightblue;
+    margin: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #00b2ca;
+    color: white;
+    transform: translateY(-5px);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 5%;
+    margin-bottom: 20px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+form div {
+    margin: 10px 0;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    height: 60px;
+    width: 100%;
+    resize: none;
+}
+
+.submit {
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    color: black;
+    background-color: #2196F3;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submit:hover {
+    background-color: #0b72c5;
+    color: white;
+}
+
+.scrollbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+    background-color: #2196F3;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.scrollbutton:hover {
+    background-color: #0a6fc2;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    height: 150px;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
